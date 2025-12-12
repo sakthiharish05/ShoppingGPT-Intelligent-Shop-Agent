@@ -1,4 +1,4 @@
-<h1 align="center">ShoppingGPT🌼</h1>
+<h1 align="center">ShoppingGPT - Intelligent Shop Agent🌼</h1>
 
 <p align="center">
   <img src="public/shoppinggpt_logo.png" alt="ShoppingGPT Logo" width="200" height="auto">
@@ -160,6 +160,13 @@ To customize ShoppingGPT for your specific needs:
 2. **Adjust policies**: Edit `data/policy.txt` with your company's guidelines.
 3. **Fine-tune responses**: Modify prompt templates in `shoppinggpt/tool/product_search.py` and `shoppinggpt/tool/policy_search.py`.
 
+## 🧪 CI & Testing
+
+Add GitHub Actions in `.github/workflows/` for linting and build checks. Example checks:
+- HTML/CSS/JS linting
+- Unit tests (if applicable)
+- Auto-deploy steps for static hosting
+  
 ## Troubleshooting 🔍
 
 If you encounter any issues:
@@ -185,14 +192,12 @@ We welcome contributions to ShoppingGPT! Here's how you can help:
 
 Please make sure to update tests as appropriate and adhere to the project's coding standards.
 
-
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments 👏
+## 📬 Maintainer
 
-- Thanks to all contributors who have helped shape ShoppingGPT
-- Special thanks to the open-source community for providing amazing tools and libraries
+sakthiharish05 — https://github.com/sakthiharish05
 
 Happy shopping with ShoppingGPT! 🛍️🤖
